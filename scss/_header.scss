@@ -107,7 +107,14 @@ header .logo h1:hover{
         position: fixed;
         z-index: 3;
     }
-    
+    .nav-links li .a:hover {
+        color: #ffffff;
+    }
+    .nav-links li .a::before {
+        
+        background-color: #f7f7f7;
+      
+    }
     .hamburger{
         display:block;
         position: absolute;
@@ -186,26 +193,12 @@ header .logo h1:hover{
     border: 1.5px solid #ffffff;   
 }
 .login-button:hover {
-    color: #ffffff;
-    background-color: #0000005d;
+    color: #000000;
+    background-color: #ffffff5d;
     border:1.5px solid #f2f5f7;
     transition: all ease-in-out 350ms;
 }
-.join-button{
-    color: #ffffff;
-    background-color: #00000069;
-    border: 1.5px solid #0000006c;
-    border-radius: 2em;
-    padding: 0.6rem 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-}
-.join-button:hover {
-    color: #000000;
-    background-color: white;
-    border:1.5px solid #000000;
-    transition: all ease-in-out 350ms;
-}
+
 }
 /*Animating Hamburger Icon on Click*/
 .toggle .line1{

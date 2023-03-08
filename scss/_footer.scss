@@ -32,3 +32,27 @@ footer .contenedores{
 footer p{
     font-family: var(--tipo-secundaria);
 }
+@media screen and (max-width:800px) {
+    
+    footer .footer_contenedor{
+        margin: 1em 0;
+    }
+    .contenedores a{
+        font-size: .8em;
+    }
+    footer p{
+       font-size: .7em;
+    }
+}
+@media screen and (max-width: 425px) {
+    footer .footer_contenedor{
+        margin: .5em 0;
+    }
+    .contenedores a{
+        font-size: .6em;
+    }
+    footer p{
+        font-size: .5em;
+    }
+    
+}

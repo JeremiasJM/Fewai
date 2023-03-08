@@ -2,6 +2,7 @@
     width: 100%;
     margin-top: 5em;
 }
+
 .carousel {
    width: 100%;
 }
@@ -9,7 +10,7 @@
 ul.slides {
     display: block;
     position: relative;
-    height: 600px;
+    height: 50vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -55,7 +56,7 @@ ul.slides input {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 2;
     font-size: 100px;
     line-height: 600px;
     color: #fff;
@@ -138,7 +139,7 @@ input:checked + .slide-container .nav label { display: block; }
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 2em 0;
+    
 }
 .section_remera h3{
     font-size: 2em;
@@ -153,6 +154,8 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 2em 0;
     gap: 5em;
 }
+
+
 .section_remera .card_remera{
     width: 350px;
     height:480px;
@@ -203,3 +206,16 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 
+@media screen and (max-width: 800px) {
+    .section_remera h3{
+         margin: 1em 0;
+    }
+    .section_remera .card_remera{
+        width: 267px;
+        height: 350px;
+    }
+    .section_remera img{
+        width: 200px;
+        height: 250px;
+    }
+ }
